@@ -9,6 +9,7 @@ import {
   UserButton,
 } from "@clerk/nextjs";
 
+export const runtime = 'edge';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
